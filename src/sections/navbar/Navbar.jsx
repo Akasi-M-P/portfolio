@@ -1,7 +1,7 @@
 import Logo from '/src/assets/logo.jpg'
 import data from './data'
-import {BsFillSunFill} from 'react-icons/bs'
-import './navbar.css'
+import { TbBrandJavascript } from "react-icons/tb";
+import "./navbar.css";
 
 const Navbar = () => {
   return (
@@ -18,11 +18,11 @@ const Navbar = () => {
           ))}
         </ul>
         <button id="theme__icon">
-          <BsFillSunFill />
+          <TbBrandJavascript />
         </button>
       </div>
     </nav>
   );
-}
+};
 
 export default Navbar
